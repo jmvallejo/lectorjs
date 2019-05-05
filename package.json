@@ -59,7 +59,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "electron": "electron src/electron/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -125,5 +126,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "electron": "5.0.1"
   }
 }
